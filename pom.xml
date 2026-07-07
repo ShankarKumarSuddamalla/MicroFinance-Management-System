@@ -18,11 +18,13 @@
     <properties>
         <java.version>25</java.version>
         <spring-cloud.version>2025.0.3</spring-cloud.version>
+        <flyway.version>11.10.5</flyway.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
         <module>platform/config-server</module>
         <module>platform/discovery-server</module>
+        <module>services/auth-service</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -32,6 +34,11 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-core</artifactId>
+                <version>${flyway.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
