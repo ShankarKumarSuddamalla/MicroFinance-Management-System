@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/platform/discovery-server/pom.xml" />
         <option value="$PROJECT_DIR$/platform/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/services/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/client-service/pom.xml" />
       </list>
     </option>
   </component>

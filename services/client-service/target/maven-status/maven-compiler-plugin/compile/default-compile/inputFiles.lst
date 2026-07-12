@@ -1,0 +1,16 @@
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\ClientServiceApplication.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\config\SecurityConfig.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\controller\ClientController.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\dto\request\ClientRequest.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\dto\response\ClientResponse.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\entity\Client.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\entity\enums\Gender.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\entity\enums\KycStatus.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\entity\enums\MaritalStatus.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\exception\DuplicateResourceException.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\exception\ErrorResponse.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\exception\GlobalExceptionHandler.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\exception\ResourceNotFoundException.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\repository\ClientRepository.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\service\ClientService.java
+F:\Java-Backend\microfinance-management-system\services\client-service\src\main\java\com\shankar\microfinance\clientservice\service\impl\ClientServiceImpl.java

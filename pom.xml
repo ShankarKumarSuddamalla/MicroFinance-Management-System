@@ -25,6 +25,7 @@
         <module>platform/config-server</module>
         <module>platform/discovery-server</module>
         <module>services/auth-service</module>
+        <module>services/client-service</module>
     </modules>
     <dependencyManagement>
         <dependencies>

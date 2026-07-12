@@ -1,0 +1,2 @@
+ALTER TABLE clients
+ALTER COLUMN kyc_status TYPE VARCHAR(20);

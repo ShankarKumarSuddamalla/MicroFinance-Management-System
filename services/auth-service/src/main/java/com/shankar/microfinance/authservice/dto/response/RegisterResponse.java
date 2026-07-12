@@ -1,0 +1,59 @@
+package com.shankar.microfinance.authservice.dto.response;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class RegisterResponse {
+    private Long id;
+    private String username;
+    private String email;
+    private String message;
+
+    public  RegisterResponse(String message){
+        this.message=message;
+    }
+    public String getMessage(){
+        return message;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public RegisterResponse(Long id, String username, String email, String message) {
+        this.id = id;
+        this.username = username;
+        this.email = email;
+        this.message = message;
+    }
+
+    public RegisterResponse() {
+    }
+}
