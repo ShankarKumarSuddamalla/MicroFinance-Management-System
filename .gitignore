@@ -1,0 +1,24 @@
+# Maven
+target/
+*.class
+dependency-reduced-pom.xml
+
+# IDEs
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Node & Angular
+angular_frontend/node_modules/
+angular_frontend/.angular/
+angular_frontend/dist/
+angular_frontend/package-lock.json
+
+# Local env / Logs
+*.log
+.env
+tmp/
